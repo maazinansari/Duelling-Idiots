@@ -1,0 +1,15 @@
+# RStudio
+.Rhistory
+.Rproj
+.RData
+.Rproj.user
+
+.DS_Store
+
+# file types
+*.html
+*.htm
+*.pdf
+*.png
+*.Rproj
+*.Rapp.history
