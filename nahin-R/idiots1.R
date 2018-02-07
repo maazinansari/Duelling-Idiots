@@ -29,14 +29,15 @@ while (nd < Duels) {
 }
 
 a = a / Duels
-paste("The probability A wins is", a)
+# paste("The probability A wins is", a)
 k = 1:length(duration)
 average = sum(k * duration[k], na.rm = TRUE) / Duels
-paste("The average number of trigger-pulls/duel is", average)
+# paste("The average number of trigger-pulls/duel is", average)
 barplot(duration,
         main = "Relative frequency of the number of trigger-pulls per duel",
         xlab = "Duration of duels (number of trigger-pulls)",
         ylab = "Number of duels",
+        cex.main = 0.75,
         xlim = c(0,60),
         ylim = c(0, 2000),
         col = rep(1:2, length.out = 60))
